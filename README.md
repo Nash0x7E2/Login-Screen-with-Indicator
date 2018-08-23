@@ -1,8 +1,11 @@
-# login_page_with_indicator_slider
+## Flutter Registration Page with Slide Indicator 
 
-A new Flutter project.
+A login screen made in Flutter inspired by a design on Uplabs. Features a triangle indicator which slides to the selected tab. 
 
-## Getting Started
+This project is completely free and open source so feel free to fork and hack to your needs :) 
 
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+Original design : https://www.uplabs.com/posts/signin-signup-kit
+
+Original Design        |  Flutter Version
+:-------------------------:|:-------------------------:
+![original-design](./preview.png)  |   ![](final_product.gif)
