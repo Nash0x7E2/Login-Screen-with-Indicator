@@ -1,6 +1,6 @@
 import "package:flutter/material.dart";
 
-class SignUpPage extends StatelessWidget {
+class HomePage extends StatelessWidget {
 	@override
 	Widget build(BuildContext context) {
 		return Scaffold(
@@ -15,7 +15,7 @@ class SignUpPage extends StatelessWidget {
 									maxHeight: constraints.maxHeight,
 									minHeight: constraints.maxHeight,
 								),
-								child: SignUpPageBody(),
+								child: HomePageBody(),
 							),
 						),
 					);
@@ -25,14 +25,13 @@ class SignUpPage extends StatelessWidget {
 	}
 }
 
-class SignUpPageBody extends StatefulWidget {
+class HomePageBody extends StatefulWidget {
 	@override
-	SignUpPageBodyState createState() {
-		return new SignUpPageBodyState();
-	}
+	HomePageBodyState createState() => HomePageBodyState();
+	
 }
 
-class SignUpPageBodyState extends State<SignUpPageBody>
+class HomePageBodyState extends State<HomePageBody>
 		with SingleTickerProviderStateMixin {
 	final String imageUrl =
 			"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD05rG-G4WhgBbzDoetCTeqO1Ite8-uMJ2jnx4rilB8ko1aJQWgQ";

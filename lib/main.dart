@@ -11,7 +11,7 @@ void main() {
           color: Color(0xFFBDA778),
         ),
       ),
-      home: SignUpPage(),
+      home: HomePage(),
     ),
   );
 }
